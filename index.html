@@ -1,0 +1,153 @@
+<!DOCTYPE htbig_textl>
+<html>
+    <head>
+        <title>Nyanyumba Coffee</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ed094b26e0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body>
+<!---------------------------------------------------------------------This is the landing page-------------------------------------------------------------->
+        <div class="landing">
+            <div class="overlay"></div>
+            <div class="navbar" id="navbar"> 
+                <div class="main-menu">
+                    <a href="" class="logo"><img src="images/logo1.png" class=" mb-3 my-logo animate__animated animate__zoomIn "></a>
+                    <ul class="list">
+                        <li><a href="#home" class="navbar-a text_white_grey animate__animated  animate__fadeInDown"id="color-nav " ><b>Home</b></a></li>
+                        <li><a href="#about" class="navbar-a text_white_grey animate__animated  animate__fadeInDown"id="color-nav"><b>About Us</b> </a></li>
+                        <li><a href="#sell" class="navbar-a text_white_grey animate__animated  animate__fadeInDown"id="color-nav " ><b>What we sell</b></a></li>
+                        <li><a href="#contact" class="navbar-a text_white_grey animate__animated  animate__fadeInDown"id="color-nav "><b>Contact Us</b></a></li>
+                    </ul>
+                </div>
+            </div>         
+            <div class="main-image"  id="home">
+                <div class="Image-content">
+                    <p class="text_white big_text mb-0 animate__animated  animate__fadeInDown"><b>Nyanyumba Women’s Cooperative  </b></p>
+                    <p class="text_white  md_text mt-0 mb-4 animate__animated  animate__fadeInDown"><b>Insert Coffee to Begin</b></p>
+                    <p class="text_white sm_text mt-0 mb-4 animate__animated  animate__fadeInDown">The day can start slow until you have your morning cup of coffee.</p>
+                    <button class="border_radius dark_red text_white_grey mt-4  main-button animate__animated  animate__fadeInDown"><b><a href="#contact" class="a-contact">Get In Touch</a></b></button>
+                </div>
+            </div>
+        </div>
+<!---------------------------------------------------------------------What we sell page------------------------------------------------------------------>
+        <div class="what_we_sell" id="sell">
+            <center>
+                <p class="main_paragraph_chocolate"><b>What we sell</b></p>
+                <hr class="hr_chocolate">
+            </center>
+            <div class="main-products">
+                <div class="child-1 animate__animated  animate__fadeInDown">
+                    <img src="./images/robusta.jpg" class="img_we_sell">
+                    <p class="chocolate small_p_1"><b>Robusta</b></p>
+                    <p class="small_p">
+                        Robusta coffee is the second most popular coffee in the world,
+                    </p>
+                    <button class="button" onclick="openPopup()"> <b>Learn more..</b></button>
+                    </div>
+                <div class="child-2 animate__animated  animate__fadeInDown">
+                    <img src="./images/liberica.jpg" class="img_we_sell">
+                    <p class="chocolate small_p_1"><b>Liberica</b></p>
+                    <p class="small_p">
+                        Liberica coffee beans are very easily distinguished from Arabica and Robusta due to their large size
+                    </p>
+                    <button class="button"  onclick="openPopup2()"> <b>Learn more..</b></button>
+                </div>
+                <div class="child-3 animate__animated  animate__fadeInDown">
+                    <img src="./images/arabica.jpg" class="img_we_sell">
+                    <p class="chocolate small_p_1"><b>Arabica</b></p>
+                    <p class="small_p">
+                        Liberica coffee beans are very easily 
+                        distinguished from Arabica and Robusta due to their large size 
+                    </p>
+                    <button class="button" onclick="openPopup3()"> <b>Learn more..</b></button>
+                </div>
+            </div>
+        </div>
+<!----------------------------------------------------------------------------About-------------------------------------------------------------------------->
+        <div class="main-section-about" id="about">
+            <center>
+                <p class="main_paragraph_white"><b>About Us</b></p>
+                <hr class="hr_white">
+            </center>
+            <div class="about_us  animate__animated  animate__fadeInDown">
+                <img src="Images/women.jpg " class=" img-about">
+                <div  class="p-about">
+                    “To me, the smell of fresh–made coffee is one of the greatest inventions.”
+                    <span>~Hugh Jackman</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nihil cupiditate! Voluptate voluptatum tempora porro ea 
+                    deserunt molestias aut accusamus accusantium quidem et commodi illum dicta repellendus,
+                     nulla aliquid facere.
+                </div>
+            </div>
+        </div>
+<!---------------------------------------------------------------------Contact Us------------------------------------------------------------------------------->
+        <div class="contact-us" id="contact">
+            <center>
+                <p class="main_paragraph_chocolate"><b>Contact Us</b></p>
+                <hr class="hr_chocolate">
+            </center>
+        <div class="contact-us-div">
+        <div class="address-side  animate__animated  animate__fadeInDown">
+            <p>
+                <i class="fa-solid fa-house" style="color: #96360d;"></i> &nbsp;&nbsp; <span>Gicumbi - Kaniga Sector</span><br><br>
+             
+            </p>
+            <p>
+                <i class="fa-solid fa-paper-plane" style="color: #93540b;"></i>&nbsp;&nbsp;</i><span>Nyanyumba@gmail.com</span><br><br>
+               
+            </p>
+            <p>
+                <i class="fa-solid fa-phone" style="color: #955409;"></i>&nbsp;&nbsp;<span>+250000000</span><br><br>
+            
+            </p>
+            <p>
+                <i class="fa-solid fa-clock" style="color: #753a0b;"></i> &nbsp;&nbsp;<span>Monday - Friday: 9 AM - 5 PM</span><br><br>
+             
+            </p>
+             
+            </div>
+            <div class="contact-side animate__animated  animate__fadeInDown">
+                <h2 class="chocolate margin-bottom-5">Reach out to us</h2>
+                <form>
+                    <input type="text" placeholder="Enter your firstname" required><br>
+                    <input type="text" placeholder="Enter your lastname" required><br>
+                    <textarea   placeholder=" Your Message Please" required></textarea></textarea><br>
+                    <button class="main-button margin-top-5" onclick="alert('SubmitSuccefully!!')">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+
+        </div>
+        <div class="footer">
+            <center>
+                <p>Copyright&copy2023</p>
+            </center>
+        </div>
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <span onclick="closePopup()" class="close-btn">&times;</span>
+                <h2 class="chocolate">Robusta coffee</h2>
+                
+                <p>Robusta coffee is known for its intense and bold flavors. With 60% less sugars and fats than arabica coffee, robusta coffee often has notes of chocolate and nuts. </p>
+            </div>
+        </div>
+        <div class="popup" id="popup2">
+            <div class="popup-content">
+                <span onclick="closePopup2()" class="close-btn">&times;</span>
+                <h2 class="chocolate">Liberica coffee</h2>
+                <p>Liberica coffee is a type of coffee that originated in Liberia, a country on the coast of West Africa. Liberica coffee plants are much larger then either Arabica or Robusta plants and the large coffee beans are known for their intense wood and smoky flavor. </p>
+            </div>
+        </div>
+        <div class="popup" id="popup3">
+            <div class="popup-content">
+                <span onclick="closePopup3()" class="close-btn">&times;</span>
+                <h2 class="chocolate">Arabica coffee</h2>
+                <p>
+                    Arabica coffee is renowned for its exquisite flavour, which is frequently described as sweeter and softer than other coffee species.  </p>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
